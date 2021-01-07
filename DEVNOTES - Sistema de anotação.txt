@@ -1,0 +1,22 @@
+DEVNOTES - Sistema de anotação
+
+O que o projeto precisa fazer?
+- Listar anotações
+- Pegar informações de uma anotação
+- Inserir uma anotação nova
+- Atualizar uma anotação
+- Deletar uma anotação
+
+Qual a estrutura de dados?
+- local para armezar anotações
+   - id
+   - title
+   - body
+
+Quais os endpoints?
+- (METODO) /url (PARÂMETROS)
+- (GET) /api/notes                  //Listar
+- (GET) /api/note/id                //Exibir
+- (POST) /api/note (title, body)    //Adicionar
+- (PUT) /api/note/id                //Atualizar
+- (DELETE) /api/note/id             //Deletar
